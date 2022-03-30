@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+        ebook:
+             build: .
+             container_name: do-s2-ansible
+             image: registry.mejik.xyz/ebook/do-s2-ansible
+             ports:
+                     - 3043:3000
